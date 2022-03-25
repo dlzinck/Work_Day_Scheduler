@@ -4,6 +4,8 @@ This is a Work Day Scheduler that allows the user to save events, reset the boar
 
 # Screenshot
 ![Alt text](/images/screenshot.png "Screenshot")
+![Alt text](/images/screenshot-1.png "Screenshot-1")
+
 
 # Link to application and repository
 [Repository](https://github.com/dlzinck/Work_Day_Scheduler)
