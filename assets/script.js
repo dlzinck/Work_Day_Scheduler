@@ -22,9 +22,7 @@ let hourSpan;
 //Setting up the time and date that displays
 let interval = setInterval(function() {
   let momentNow = moment();
-  $('#currentDay').html(momentNow.format('YYYY MMMM DD') + ' '
-                      + momentNow.format('dddd')
-                       .substring(0,3).toUpperCase());
+  $('#currentDay').html(momentNow.format('YYYY MMMM DD') + ' ' + momentNow.format('dddd').substring(0,3).toUpperCase());
   $('#currentDay').html(currentDate + " " + momentNow.format('hh:mm:ss A'));
 }, 100);
 
@@ -33,7 +31,7 @@ function initPage() {
   console.log("Current Hour " + hour);
   let init9 = JSON.parse(localStorage.getItem("09:00 am"));
   nineAm.val(init9);
-
+  
   let init10 = JSON.parse(localStorage.getItem("10:00 am"))
   tenAm.val(init10);
   
