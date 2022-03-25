@@ -11,6 +11,7 @@ textarea {
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  width: 920px;
 }
 
 .jumbotron {
@@ -30,6 +31,14 @@ textarea {
   border-radius: 15px;
 }
 
+.input-group-text {
+  border: none;
+}
+
+.form-control {
+  border: none;
+}
+
 .row {
   white-space: pre-wrap;
   height: 80px;
@@ -40,6 +49,8 @@ textarea {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  text-align: center;
+  padding: 20px;
 }
 
 .past {
@@ -61,11 +72,15 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #050505;
   color: white;
 }
 
+.saveButton:hover {
+  background-color: #000000;
+}
+
 .saveButton i:hover {
-  font-size: 20px;
+  font-size: 40px;
   transition: all 0.3s ease-in-out;
 }

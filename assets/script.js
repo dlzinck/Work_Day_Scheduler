@@ -87,9 +87,7 @@ $(document).ready(function(){
   // Saves data to Local Storage on the click action
   $(".saveButton").on("click", function(){
     userInput = $(this).siblings(".form-control").val().trim();
-    console.log(userInput);
     hourSpan = $(this).siblings(".input-group-prepend").text().trim();
-    console.log(hourSpan);
     localStorage.setItem(hourSpan, JSON.stringify(userInput));
 
   })
