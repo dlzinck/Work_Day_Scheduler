@@ -13,7 +13,6 @@ textarea {
   padding: 10px;
 }
 
-
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -26,20 +25,9 @@ textarea {
   white-space: pre-wrap;
 }
 
-.form-control {
-  border: none;
-}
 .time-block {
   text-align: center;
   border-radius: 15px;
-}
-
-.input-group-text {
-  border: none;
-}
-
-.input-group-text {
-  border: none;
 }
 
 .row {

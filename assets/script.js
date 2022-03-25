@@ -70,9 +70,7 @@ function background () {
   $(".form-control").each(function () {
       let timeTest = parseInt($(this).attr("id"));
       hour = parseInt(hour);
-      console.log(timeTest);
-      console.log(hour);
-      if (hour >= timeTest) {
+      if (hour > timeTest) {
           $(this).css({"background-color": "#d3d3d3"});
       } else if (hour < timeTest) {
           $(this).css({"background-color": "#77dd77"});
