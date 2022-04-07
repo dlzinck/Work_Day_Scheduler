@@ -87,8 +87,8 @@ $(document).ready(function(){
     userInput = $(this).siblings(".form-control").val().trim();
     hourSpan = $(this).siblings(".input-group-prepend").text().trim();
     localStorage.setItem(hourSpan, JSON.stringify(userInput));
-
   })
+
   //Clears the page of all current items and defualts back to normal
   $("#resetDayScheduler").on("click", function(){
     localStorage.clear();
